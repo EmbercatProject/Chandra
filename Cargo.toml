@@ -11,7 +11,7 @@ description = "Will contain more information soon"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
-chandra-kernel = { path = "./chandra_kernel" }
+chandra-kernel = { path = "./chandra_kernel", version="0.0.0" }
 parking_lot = "0.12.1"
 rayon = "1.5.1"
 rand = "0.8.4"
